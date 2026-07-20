@@ -19,7 +19,7 @@ services:
         sync: false
 
   # React Vite Frontend (Static Site)
-  - type: web
+  - type: static
     name: gvak-police-frontend
     runtime: static
     rootDir: frontend
